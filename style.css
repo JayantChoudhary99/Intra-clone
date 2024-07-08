@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_fluid{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.container_under{
+    width: 100%;
+    height: 800px;
+    background-image:linear-gradient(#2a1a5ed5,#2a1a5ed5) ,url("image/empty-modern-creative-agency-office-with-dual-monitors-setup-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    
+
+}
+.nav{
+    width: 100%;
+    height:90px;
+    align-content: center;
+    color: white;
+    
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.li{
+    width: 48%;
+    line-height: 90px;
+    display: flex;
+    
+    list-style: none;
+    font-family: "Fjalla One", sans-serif;
+    
+    font-style: normal;
+}
+.cs{
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.csa{
+    display: none;
+}
+
+.cs:hover{
+    
+    background-color: #f45905;
+}
+
+
+.logo{
+    height: 50px;
+    width: 140px;
+}
+
+.home{
+    color: white;
+    margin: auto;
+    
+}
+
+.home_under{
+    width: 18%;
+    background-color: #f45905;
+    flex-direction: column;
+    display: none;
+    left: 321px;
+    position: absolute;
+    top: 91px;
+    
+}
+.home_under1{
+    background-color: #f45905;
+    display: none;
+    width: 18%;
+    position: absolute;
+    top: 91px;
+    left: 450px;
+    flex-direction: column;
+}
+.cs+.home_under:hover{
+    display: block;
+    background-color: #f45905;
+}
+.home_under2{
+    background-color: #f45905;
+    width: 18%;
+    position: absolute;
+    top: 91px;
+    left: 709px;
+    flex-direction: column;
+    display: none;
+}
+.home_under3{
+    background-color: #f45905;
+    display: none;
+    width: 18%;
+    flex-direction: column;
+    position: absolute;
+    top: 91px;
+    left: 838px;
+}
+.home_title{
+    width: 89%; 
+    
+    line-height: 50px;
+    list-style: none;
+    margin: 13.5px;
+    font-family: "Fjalla One", sans-serif;
+}
+.btn{
+    height: 60px;
+    width: 200px;
+    background-color: #f45905;
+    border-style: none;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 16px;
+    color: white;
+    word-spacing: 1px;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+.first_sec{
+    width: 100%;
+    height: 610px;
+    text-align: center;
+    align-content: center;
+}
+.first_sec_head{
+    width: 75%;
+    margin: auto;
+    font-size: 60px;
+    line-height: 1.7em;
+    letter-spacing: 3.5px;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+}
+.para1{
+    width: 80%;
+    margin: auto;
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.btn_sec{
+    width: 35%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+.btn1{
+    height: 50px;
+    width: 200px;
+    background-color: #f45905;
+    border-style: none;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 16px;
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.btn2{
+    height: 50px;
+    width: 200px;
+    color: #f45905;
+    background-color: white;
+    border-style: none;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.sec_container{
+    width: 100%;
+}
+.sec_container_sec{
+    position: relative;
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    background-color:#2a1a5e ;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    font-family: "Fjalla One", sans-serif;
+    bottom: 110px;
+
+}
+.icon1{
+    font-size: 80px;
+    line-height: 100px;
+}
+.sec_sec_head{
+    line-height: 120px;
+    letter-spacing: 3px;
+}
+.third_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left_container{
+    width: 49%;
+   
+}
+.left_container_left{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-family: "Fjalla One", sans-serif;
+    color: #f45905;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.hrtag{
+    width: 70px;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.691);
+    
+    margin-right: 10px;
+    
+}
+.third_head{
+    color: #121212;
+    font-family: "Fjalla One", Sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 90px;
+}
+.para2{
+    color: #393939;
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 17px;
+    line-height: 1.7em;
+    letter-spacing: 0.8px;
+    margin-right: 10px;
+}
+.right_container{
+    width: 49%;
+    
+}
+.right_containe_right{
+    width: 100%;
+}
+.left_container_under_1{
+    width: 95%;
+    display: flex;
+    padding: 5%;
+    padding-left: unset;
+    justify-content: space-between;
+}
+.sec_container_sec:hover{
+    background-color: #f45905;
+}
+
+.left_container_left_1{
+    width: 48%;
+    
+    
+}
+.left_container_right_1{
+    width: 48%;
+    align-content: center;
+}
+.ri-award-fill {
+    font-size: 80px;
+    color: #f45905;
+}
+span.hub{
+    font-size: 70px;
+    color: #f45905;
+}
+.para3,.para4{
+    color: black;
+    font-family: "Fjalla One", Sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 3.5px;
+}
+.ceo{
+    /* height: 220px; */
+    width: 400px;
+    background-color: #2a1a5e;
+    padding: 40px 30px 40px 30px;
+    position:relative;
+    bottom: 200px;
+    left: 135px;
+}
+.ceo:hover{
+    background-color: #f45905;
+}
+.ceo_tag{
+    font-family: "Fjalla One", Sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: 3.5px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.ri-user-3-fill,.ri-calendar-check-fill{
+    font-size: 75px;
+    color: white;
+}
+.para5{
+    /* font-family:  Sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-left: 10px;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    
+}
+.fourth_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.col-1{
+    width: 28.3333333%;
+    background-color: #2a1a5e;
+    padding: 30px;
+    
+}
+.col-2{
+    width: 28.3333333333%;
+    background-color: #2a1a5e;
+    padding: 30px;
+    
+}
+.col-3{
+    width: 28.333333333%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.ref{
+    
+    text-underline-offset: 10px;
+    margin-left: 10px;
+    color:#f45905;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+.head{
+    color: #121212;
+    font-family: "Fjalla One", Sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 3.5px;
+}
+.col-1:hover,.col-2:hover{
+    background-color: #f45905;
+    color: white;
+}
+
+.col-2:hover .ref ,.col-1:hover .ref{
+    color: white;
+}
+
+ul.list{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: start;
+    display: unset;
+
+    
+}
+li.check{
+    margin-top: 20px;
+    width: 100%;
+    text-align: start;
+    font-size: 22px;
+    list-style: none;
+    
+}
+.ri-checkbox-circle-line{
+    margin-right: 10px;
+    color: #f45905;
+    font-size: 30px;
+}
+.fifth_container{
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.upper{
+    width: 100%;
+    text-align: center;
+}
+.h5{
+    
+    font-family: "Fjalla One", Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 3.5px;
+    color: #f45905;
+    margin-bottom: 30px;
+}
+.pack{
+    margin-top: 20px;
+    color: #665f5f;
+    margin-bottom: 40px;
+    
+}
+.col_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.row_1{
+    width: 30%;
+    text-align: right;
+    margin: 0.83333333333%;
+
+}
+.row_2{
+    width: 30%;
+    
+    margin: 0.83333333333%;
+}
+.row_3{
+    width: 30%;
+    text-align: left;
+    margin: 0.83333333333%;
+    letter-spacing: 2px;
+}
+.row_4{
+    border: #e1d9d9 solid 2px;
+    padding: 25px;
+    text-align: start;
+}
+.row_4:hover{
+    border-color: #f45905;
+}
+li.list1{
+    text-align: unset;
+    
+}
+li.box{
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 17px;
+}
+.fonset{
+    width: 100%;
+    display: table;
+}
+.H1{
+    width: 30%;
+    float: left;
+    text-align: center;
+    
+}
+.H2{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+.H3{
+    width: 40%;
+    text-align: center;
+    line-height: 60px;
+}
+.red{
+    font-size: 52px;
+    color: #f45905;
+    font-family: "Libre Baskerville", Sans-serif;
+    font-style: italic;
+}
+.para7{
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "Libre Baskerville", Sans-serif;
+}
+.para9{
+    color: #171717;
+}
+.profile_icon{
+    width: 93%;
+    margin: 7%;
+    margin-left: unset;
+    display: flex;
+    align-items: center;
+}
+.profile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+    margin-right: 20px;
+}
+.div{
+    width: 50%;
+}
+.para15{
+    color: #121212;
+    font-weight: 600;
+    float: left;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: "fjjala One",sans-serif;
+}
+.para16{
+    line-height: 25px;
+    color: rgb(244, 89, 5);
+    letter-spacing: 1px;
+    font-size: 14.5px;
+    font-family: "libre baskerville",sans-serif;
+}
+.footer{
+    width: 94%;
+    padding: 3%;
+    background-color: #2a1a5e;
+    display: table;
+}
+.colom1{
+    width: 46%;
+    margin-right: 2px;
+    float: left;
+    margin: 2.5%;
+    margin-left: unset;
+    
+}
+.colom1>img{
+    width: 50%;
+    margin-left: 10px;
+}
+.colom2{
+    width: 22%;
+    float: left;
+    margin: 2.5%;
+}
+.colom3{
+    width: 22%;
+    float: left;
+    margin: 2.5%;
+    margin-right: unset;
+}
+.ri-subtract-line{
+    color: #f45905;
+    margin-right:10px;
+    
+    
+}
+.para17{
+    margin-top: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+}
+svg{
+    margin-right: 10px;
+    
+}
+.footer_under{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span:hover{
+    color: #f45905;
+    cursor: pointer;
+}
+.footer_left{
+    width: 50%;
+    
+}
+.footer_right{
+    
+    width: 40%; 
+}
+.para8{
+    
+    display: flex;
+    justify-content: space-around;
+}
+@media  screen and (max-width:780px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container_fluid{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container_under{
+        width: 100%;
+        
+        background-image:linear-gradient(#2a1a5ed5,#2a1a5ed5) ,url("image/empty-modern-creative-agency-office-with-dual-monitors-setup-1.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        
+    
+    }
+    .nav{
+        width: 100%;
+        height: unset;
+        
+        
+    }
+    ul{
+        width: 95%;
+        padding: 2.5%;
+        display:table;
+        /* display: flex; */
+        
+        align-items: center;
+        
+    }
+    .logo{
+        width: 25%;
+        float: left;
+    }
+    .li{
+        width: 70%;
+        line-height:50px;
+        float: right;
+        
+        
+    }
+    .cs{
+        display: none;
+    }
+    .csa{
+        
+        width: 50px;
+        text-align: center;
+        display:block;
+        background-color: #f45905;
+        
+        margin-left: auto;
+        
+       
+    }
+    .btn{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    
+    .first_sec{
+        height: 500px;
+    }
+    .btn_sec{
+        width: 100%;
+    }
+    
+    .sec_container_sec{
+        width: 70%;
+        height: unset;
+    }
+    
+    .sec_sec_head {
+        line-height: 90px;
+        font-size: 35px;
+        letter-spacing: 4px;
+    }
+    .icon1{
+        line-height: 150px;
+    }
+    .third_container{
+        display: block;
+        width: 95%;
+        padding: 2.5%;
+    }
+    .left_container{
+        width: 100%;
+    }
+    .hrtag{
+        width: 30%;
+    }
+    .third_head{
+        font-size: 55px;
+    }
+    .right_container{
+        width: 100%;
+        
+    }
+    .ceo{
+        width: 68%;
+        left: 174px;
+        
+    }
+    .fourth_container {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .col-1{
+        width: 46%;
+        margin: 2%;
+        margin-left: unset;
+    }
+    .col-2{
+        margin: 2%;
+        width: 46%;
+        margin-right: unset;
+    }
+    .col-3{
+        position: absolute ;
+        width: 100%;
+        bottom:373px; 
+        
+    }
+    .head{
+        font-size:45px ;
+        text-align: start;
+    }
+    .pack{
+        text-align: start;
+        margin-left: unset;
+    }
+    .col_2{
+        display: unset;
+    }
+    .row_1{
+        width: 100%;
+    }
+    .row_2{
+        width: 100%;
+    }
+    .row_3{
+        margin-top: 30px;
+        width: 95%;
+    }
+    iframe{
+        width: 100%;
+    }
+    .fonset{
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .H1{
+        width: 30%;
+    }
+    .H2{
+        width: 40%;
+    }
+    .H3{
+        width: 30%;
+    }
+    
+    .head1{
+        text-align: center;
+    }
+    .packect{
+        margin: auto;
+        text-align: center;
+    }
+    .row_11{
+        width: 40%;
+        float: left;
+    }
+    .row_10{
+        width: 90%;
+        clear: left;
+    }
+    .col_name{
+        margin-top: 20px;
+       display: table;
+    }
+    .colom1{
+        clear: left;
+        width: 100%;
+    }
+    .colom2{
+        clear: left;
+        width: 98%;
+    }
+    .colom3{
+        clear: left;
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+    }
+    .footer{
+        width: 94%;
+
+    }
+    .footer_under{
+        display: block;
+        
+    }
+    .footer_left{
+        width: 57%;
+        margin: auto;
+
+    }
+    .footer_right{
+        width: 70%;
+        margin: auto;
+
+    }
+    
+
+}
+
+
+@media screen and (max-width: 468px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container_fluid{
+        width: 100%;
+    }
+    .first_sec_head{
+        font-size: 33px;
+        line-height: normal;
+        margin-top: 40px;
+        word-spacing: 5px;
+        width: 82%;
+    }
+    .para1{
+        margin-bottom: 20px;
+        margin-top:20px ;
+        font-size: 17px;
+    }
+    ul{
+        margin: auto;
+    }
+    .btn1{
+        width: 85%;
+        
+    }
+    .btn2{
+        width: 85%;
+        margin-top: 20px;
+        margin-left: unset;
+    }
+    .sec_container_sec{
+        width: 90%;
+    }
+    .sec_container{
+        height: 140px;
+    }
+    .left_container_left{
+        font-size: 18px;
+    }
+    .third_container {
+        display: block;
+        width: 90%;
+        padding: 2.5%;
+    }
+    .third_head{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .fourth_container {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 100px;
+        display: unset;
+    }
+    .col-1 {
+        width: 76%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .col-2 {
+        width: 76%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .para2{
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .left_container_under_1 {
+        display: unset;
+        
+        padding: unset;
+    }
+    .left_container_left_1{
+        margin-top: 20px;
+        
+        width: 100%;
+    }
+    .left_container_right_1{
+        width: 100%;
+       
+        margin-bottom: 10px;
+    }
+    .para3{
+        font-size: 24px;
+    }
+    span.hub{
+        margin: 10px;
+    }
+    .ceo {
+        width: 88%;
+        
+        left: 18px;
+    }
+    .ri-user-3-fill, .ri-calendar-check-fill {
+        font-size: 50px;
+        color: white;
+    }
+    .ceo_tag{
+        font-size: 20px;
+    }
+    .para5{
+        font-size: 17px;
+    }
+    .right_container{
+        height: 650px;
+    }
+     
+    .head {
+        font-size: 35px;
+        text-align: unset;
+        
+    }
+    .col-3 {
+        position: absolute;
+        width: 90%;
+        top: -155px;
+    }
+    .pack{
+        width: 100%;
+       
+        text-align: center;
+    }
+    .list{
+        padding-left: unset;
+        padding-bottom: unset;
+    }
+    .fonset{
+        display: block;
+        width: 100%;
+    }
+    .H1,.H2,.H3{
+        width: 100%;
+        padding: 10px;
+    }
+    .para7{
+        margin: unset;
+        font-size: 19px;
+        font-family: unset;
+        letter-spacing: 2.5px;
+        word-spacing: 1px;
+    }
+    .red{
+        font-size: 70px;
+        font-style: unset;
+        font-family: unset;
+    }
+    .row_11{
+        width: 98%;
+        margin-bottom: 25px;
+    }
+    .row_10{
+        width: 98%;
+    }
+    .packect{
+        width: 92%;
+    }
+    .col_name{
+        margin-top: 40px;
+    }
+    .colom1>img{
+        width: 60%;
+    }
+    .para17{
+        font-family:"libre baskerville",sans-serif;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer_right{
+        display: none;
+    }
+    .footer_left{
+        width: 79%;
+        margin: auto;
+        text-align: center;
+    }
+}
